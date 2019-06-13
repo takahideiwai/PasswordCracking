@@ -20,6 +20,9 @@ RUN mkdir /home/user/Desktop
 #Copy the directions in to Desktop    
 COPY PasswordCrackingLab.pdf /home/user/Desktop/Directions.pdf
 
+#Copy hashfile1.txt
+COPY hashfile1.txt /home/user
+
 
 #Allow user to run certain commands without a password
 ADD usersudo /etc/sudoers.d/

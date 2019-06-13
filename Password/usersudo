@@ -4,3 +4,5 @@ user ALL=(root) NOPASSWD: /usr/bin/passwd alice
 user ALL=(root) NOPASSWD: /usr/bin/passwd bob
 user ALL=(root) NOPASSWD: /bin/cat /etc/shadow
 user ALL=(root) NOPASSWD: /usr/sbin/john /etc/shadow
+user ALL=(root) NOPASSWD: /usr/bin/tail /etc/shadow
+
