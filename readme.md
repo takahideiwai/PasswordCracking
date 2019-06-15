@@ -1,5 +1,5 @@
 # Password Hashing and Cracking
-## Description of the scenarion
+## Description of the scenarios
 Password is an important user authentication mechanism. Passwords are stored in the database as hashes rather than plain text. If users’ passwords are stored in a database as plain text, malicious hackers can get immediate access to them if they break into the system. In this lab, you will understand what password hash is and how password hash be cracked.  
 ## Target Audience 
 **Instructors**  
