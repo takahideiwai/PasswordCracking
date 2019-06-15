@@ -24,7 +24,7 @@ After typing the command, the container will be accessible by opening the web br
 ```bash
 0.0.0.0:8888
 ```  
-The user will be able to open the Directions.pdf which is located on the Desktop by using Firefox. Directions.pdf will include a step by step instructions on how to perform the tasks. The instrcutions are also available [here] (https://takahideiwai.github.io/Cryptography/01-passwordcracking/index.html). 
+The user will be able to open the Directions.pdf which is located on the Desktop by using Firefox. Directions.pdf will include a step by step instructions on how to perform the tasks. The instrcutions are also available [here](https://takahideiwai.github.io/Cryptography/01-passwordcracking/index.html). 
 ## How to Contribute
 To report issues or contribute enhancements to this application, open a GitHub issue. 
 
