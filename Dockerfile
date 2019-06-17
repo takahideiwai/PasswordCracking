@@ -1,7 +1,7 @@
 FROM dorowu/ubuntu-desktop-lxde-vnc:bionic
 
 #Based on SSL-Strip Victim-VNC docker implemeted by Mr.Kalyanam
-MAINTAINER Rajesh Kalyanam "rkalyanapurdue@gmail.com"
+MAINTAINER Takahide Iwai "tiwai@purdue.edu"
 
 #add John the ripper and gedit 
 RUN apt-get update && apt-get -y install john gedit
