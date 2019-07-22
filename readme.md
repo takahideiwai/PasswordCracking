@@ -17,13 +17,18 @@ docker build -t pass .
 After typing the command listed above, the machine will build the image for the password cracking container.   
 The following command will be used to run the container.
 ```bash
-docker run -d -v /dev/shm:/dev/shm -p 8888:80 pass
+docker run -d -p 80 pass
 ```  
 ## Usage 
-After typing the command, the container will be accessible by opening the web browser from your own computer and typing  
+After typing the command, the container will be accessible by opening the web browser from your own computer and typing.  
+You will be able to figure out the portnumber by typing in    
 ```bash
-0.0.0.0:8888
+docker ps
 ```  
+And access the container by typing in  
+```bash
+0.0.0.0:<portnumber>
+```
 The user will be able to open the Directions.pdf which is located on the Desktop by using Firefox. Directions.pdf will include a step by step instructions on how to perform the tasks. The instrcutions are also available [here](https://takahideiwai.github.io/Cryptography/01-passwordcracking/index.html). 
 ## How to Contribute
 To report issues or contribute enhancements to this application, open a GitHub issue. 
