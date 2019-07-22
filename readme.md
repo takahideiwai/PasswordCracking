@@ -20,7 +20,7 @@ The following command will be used to run the container.
 docker run -d -p 80 pass
 ```  
 ## Usage 
-After typing the command, the container will be accessible by opening the web browser from your own computer and typing.  
+After typing the command, the container will be accessible by opening the web browser from your own computer.
 You will be able to figure out the portnumber by typing in    
 ```bash
 docker ps
