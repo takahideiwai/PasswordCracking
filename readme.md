@@ -25,7 +25,7 @@ You will be able to figure out the portnumber by typing in
 ```bash
 docker ps
 ```  
-And access the container by typing in  
+And access the container by typing in the following IP address and portnumber in the web browser.
 ```bash
 0.0.0.0:<portnumber>
 ```
